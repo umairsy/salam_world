@@ -1,0 +1,16 @@
+
+# --- secret / credential guard (added by security scan) ---
+.env
+.env.*
+*.env
+site_config.json
+secrets.*
+credentials.*
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_rsa.*
+*.crt
+# --- end secret guard ---
